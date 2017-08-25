@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{xcolor}
+\usepackage{hyperref}    
+\begin{document}
+\title{Initial thoughts on the problem of analysing truck drivers visually for various violations and events}
+\author{Ahish.V}
+\maketitle
+\textbf{PROBLEM:} \\
+    The problem Definition as I understand it:
+    \begin{itemize}
+       \item Detect violation of not wearing belts - \textcolor{blue}{ACHIEVED}
+       \item People Count - \textcolor{blue}{ACHIEVED}
+       \item Face Detection - \textcolor{blue}{ACHIEVED}
+       \item Gait Detection(Mobile Phone Usage) - \textcolor{green}{To Be Achieved}
+       \item Desktop Comprehensive Footage Analysis Tool - \textcolor{red}{Work in Progress}
+       \item Fatigue Detection - \textcolor{green}{To Be Achieved}
+       \item Event Based local recording - \textcolor{yellow}{Partially Achieved} 
+    \end{itemize}
+    Additional things to be implemented:
+    \begin{itemize}
+        \item Camera Health monitoring
+        \item Device Health
+        \item System Status
+        \item Cloud API based Analytics
+    \end{itemize}
+\textbf{SOLUTION:} \\
+    Solution currently implemented for onboard event detection using OpenCV's face detection.
+    \begin{itemize}
+        \item Face recognition may be achieved through an OpenCV based library 
+        \href{https://github.com/uricamic/clandmark}{\underline{\textcolor{blue}{clandmark}}}. 
+        It seems to be a development over flandmark which is an accepted solution to the problem. 
+        \item Gait Detection may be achieved through a combination of eye tracking offered by clandmark
+        and temporal correlations. Given an audio input from the cabin we might be able to acheive greater 
+        accuracy for such events.
+        \item Fatigue detection may again be achieved through a combination of eye tracking, temporal correlations
+        and location analysis through an input GPS feed if possible. 
+        \item Camera health monitoring might be implemented within the camera's API. I am not too sure about the
+        information being extracted from the camera. I do not have enough information at hand about the hardware.
+    \end{itemize} 
+\textbf{TENSORFLOW:}
+    All of the information I have at the moment suggests to me that tensorflow might be the most efficient path to our required 
+    solution. Although, I think I might see a possible solution using no Machine Learning since the data set (of about 350 drivers)
+    is relatively small and might be done through image analysis and slightly complex parallelisation on a GPU to improve the TTS. 
+    With the availability of clandmark, I think this solution might be more feasible than I initially thought.
+\end{document}
