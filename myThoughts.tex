@@ -2,7 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{xcolor}
-\usepackage{hyperref}    
+\usepackage{hyperref}   
+\usepackage{tabulary} 
 \begin{document}
 \title{Initial thoughts on the problem of analysing truck drivers visually for various violations and events}
 \author{Ahish.V}
@@ -44,4 +45,15 @@
     solution. Although, I think I might see a possible solution using no Machine Learning since the data set (of about 350 drivers)
     is relatively small and might be done through image analysis and slightly complex parallelisation on a GPU to improve the TTS. 
     With the availability of clandmark, I think this solution might be more feasible than I initially thought.
+\newpage
+\Large{Table of Libraries to the best of my knowledge}
+\\ \vspace{1cm} \\
+\begin{tabulary}{0.8\textwidth}{LLL}
+    \hline
+    Requirement & Pre-requisite(s) & Library & Class(es) & Efficiency \\
+    \hline  
+    Driver Detection & no Meta Data needed & OpenCV & \href{http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html}{\underline{cascade classifier}} & \\ \hline
+    Verify Driver & driver details and previously trained data & & & \\
+    \hline
+  \end{tabulary}
 \end{document}
