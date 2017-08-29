@@ -2,7 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{xcolor}
-\usepackage{hyperref}    
+\usepackage{hyperref} 
+\usepackage{tabulary}   
 \begin{document}
 \title{Initial thoughts on the problem of analysing truck drivers visually for various violations and events}
 \author{Ahish.V}
@@ -47,12 +48,13 @@
 \newpage
 \Large{Table of Libraries to the best of my knowledge}
 \\ \vspace{1cm} \\
-\begin{tabular}{ | c | c | c | c | c |}
+\begin{tabulary}{\textwidth}{|C|C|C|C|C|}
     \hline
     Requirement & Pre-requisite(s) & Library & Class(es) & Efficiency \\
     \hline  
-    Driver Detection & no Meta Data needed & OpenCV & \href{http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html}{\underline{cascade classifier}} & \\ \hline
-    Verify Driver & driver details and \newline previously trained data & & & \\
+    Driver Detection & no Meta Data needed & OpenCV, clandmark, \href{http://www.learnopencv.com/facial-landmark-detection/}{\underline{DLib}} & \href{http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html}{\underline{cascade classifier}} or use clandmark directly & \\ \hline
+    Verify Driver & driver details and previously trained data & & & \\
+
     \hline
-  \end{tabular}
+  \end{tabulary}
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.8.25)  29 AUG 2017 14:12
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.8.25)  29 AUG 2017 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,74 +295,53 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 [1
 
 ] [2]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.58   \end{tabulary}
-                     
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.58   \end{tabulary}
-                     
-? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 58.
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.58   \end{tabulary}
-                     
-? 
+(Font)              <14.4> on input line 59.
 
-Overfull \hbox (1.91162pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/14.4 brary|  
+Overfull \hbox (1.31798pt too wide) in paragraph at lines 59--59
+ \OT1/cmr/m/n/14.4 quire- 
  []
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.58   \end{tabulary}
-                     
-? 
 
-Overfull \hbox (22.66473pt too wide) in paragraph at lines 58--58
-[]\OT1/cmr/m/n/14.4 OpenCV|  
+Overfull \hbox (18.29579pt too wide) in paragraph at lines 59--59
+ \OT1/cmr/m/n/14.4 ciency| 
  []
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.58   \end{tabulary}
-                     
-? 
 
-Overfull \hbox (43.04456pt too wide) in paragraph at lines 58--58
-[][]$[]$[]|  
+Overfull \hbox (4.64462pt too wide) in paragraph at lines 59--59
+ []\OT1/cmr/m/n/14.4 Driver 
  []
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.58   \end{tabulary}
-                     
-? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+
+Overfull \hbox (2.45082pt too wide) in paragraph at lines 59--59
+ []\OT1/cmr/m/n/14.4 OpenCV, 
+ []
+
+
+Overfull \hbox (14.86092pt too wide) in paragraph at lines 59--59
+ [][]$[]$[] 
+ []
+
+
+Overfull \hbox (4.64462pt too wide) in paragraph at lines 59--59
+ \OT1/cmr/m/n/14.4 Driver| 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (./myThoughts.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 59.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 60.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 8843 strings out of 495447
- 122313 string characters out of 6181134
+ 8847 strings out of 495447
+ 122331 string characters out of 6181134
  192915 words of memory out of 5000000
- 12113 multiletter control sequences out of 15000+600000
+ 12117 multiletter control sequences out of 15000+600000
  8256 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,11n,35p,222b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,35p,332b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on myThoughts.pdf (3 pages).
