@@ -2,8 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{xcolor}
-\usepackage{hyperref}   
-\usepackage{tabulary} 
+\usepackage{hyperref}    
 \begin{document}
 \title{Initial thoughts on the problem of analysing truck drivers visually for various violations and events}
 \author{Ahish.V}
@@ -48,12 +47,12 @@
 \newpage
 \Large{Table of Libraries to the best of my knowledge}
 \\ \vspace{1cm} \\
-\begin{tabulary}{0.8\textwidth}{LLL}
+\begin{tabular}{ | c | c | c | c | c |}
     \hline
     Requirement & Pre-requisite(s) & Library & Class(es) & Efficiency \\
     \hline  
     Driver Detection & no Meta Data needed & OpenCV & \href{http://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html}{\underline{cascade classifier}} & \\ \hline
-    Verify Driver & driver details and previously trained data & & & \\
+    Verify Driver & driver details and \newline previously trained data & & & \\
     \hline
-  \end{tabulary}
+  \end{tabular}
 \end{document}
